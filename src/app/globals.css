@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: black;
+  color: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+li {
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+li:hover {
+  color: dodgerblue;
+}
