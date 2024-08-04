@@ -1,5 +1,6 @@
 import React from "react";
 import Information from "./Information";
+import Image from "next/image";
 
 const PersonalSection = () => {
   return (
@@ -8,10 +9,11 @@ const PersonalSection = () => {
         <Information />
       </div>
       <div className="flex-2  bg-[#18191E] rounded-full  overflow-hidden max-sm:flex max-sm:justify-center max-sm:max-w-xl max-sm:m-auto">
-        <img
+        <Image
           className="w-96 max-sm:w-72 max-lg:w-71 max-md:w-60 "
           src="/img.png"
-          alt=""
+          width={384}
+          height={384}
         />
       </div>
     </div>
