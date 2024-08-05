@@ -1,5 +1,6 @@
 import AboutSection from "@/components/about/AboutSection";
 import AchievementsSection from "@/components/achievements/Achievements";
+import FooterSection from "@/components/footer/FooterSection";
 import NavSection from "@/components/nav/NavSection";
 import PersonalSection from "@/components/presonalInfo/PersonalSection";
 import ProjectsSection from "@/components/projects/ProjectsSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <AchievementsSection />
       <AboutSection />
       <ProjectsSection />
+      <FooterSection />
     </main>
   );
 }
