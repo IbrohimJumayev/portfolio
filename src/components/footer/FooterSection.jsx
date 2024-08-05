@@ -8,8 +8,8 @@ const FooterSection = () => {
       <div className="flex-1">
         <h3 className="font-bold text-2xl">Let&apos;s connect</h3>
         <p className="mt-5 text-[#ADB7BE]">
-          I'm currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi, I'll try my best
+          I&apos;m currently looking for new opportunities, my inbox is always open.
+          Whether you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
         <div className="flex gap-3 mt-5">
