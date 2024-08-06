@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <form className="flex flex-col mb-10">
+    <form id="contact" className="flex flex-col mb-10">
       <div className="mb-6">
         <label
           htmlFor="email"
