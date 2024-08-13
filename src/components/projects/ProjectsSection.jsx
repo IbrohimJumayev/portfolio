@@ -23,14 +23,14 @@ const ProjectsSection = () => {
               className="text-white mb-2 font-bold  cursor-pointer"
               target="_blank"
             >
-              View Code
+              <span className="material-symbols-outlined">code</span>
             </a>
             <a
               href="https://game-geek.vercel.app/"
               className="text-white font-bold  cursor-pointer"
               target="_blank"
             >
-              View Project
+              <span className="material-symbols-outlined">visibility</span>
             </a>
           </div>
         </div>
@@ -50,14 +50,14 @@ const ProjectsSection = () => {
               className="text-white mb-2 font-bold  cursor-pointer"
               target="_blank"
             >
-              View Code
+              <span className="material-symbols-outlined">code</span>
             </a>
             <a
               href="https://postly-wine.vercel.app/"
               className="text-white font-bold  cursor-pointer"
               target="_blank"
             >
-              View Project
+              <span className="material-symbols-outlined">visibility</span>
             </a>
           </div>
         </div>
@@ -77,14 +77,14 @@ const ProjectsSection = () => {
               className="text-white mb-2 font-bold  cursor-pointer"
               target="_blank"
             >
-              View Code
+              <span className="material-symbols-outlined">code</span>
             </a>
             <a
               href="https://react-todo-app-gold-xi.vercel.app/"
               className="text-white font-bold  cursor-pointer"
               target="_blank"
             >
-              View Project
+              <span className="material-symbols-outlined">visibility</span>
             </a>
           </div>
         </div>
