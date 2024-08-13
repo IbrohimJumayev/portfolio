@@ -14,13 +14,13 @@ const Menu = ({ isOpen, handleClose }) => {
         <Drawer.Header title="Portfolio" />
         <Drawer.Items>
           <ul className="flex-col text-center gap-5 sm:gap-8  text-2xl font-bold sm:text-xl  ">
-            <li onClick={handleClose}>
+            <li className="mt-2" onClick={handleClose}>
               <a href="#about">About</a>
             </li>
-            <li onClick={handleClose}>
+            <li className="mt-2" onClick={handleClose}>
               <a href="#projects">Projects</a>
             </li>
-            <li onClick={handleClose}>
+            <li className="mt-2" onClick={handleClose}>
               <a href="#contact">Contact</a>
             </li>
           </ul>
